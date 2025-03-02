@@ -1,9 +1,19 @@
-[gd_scene load_steps=2 format=3 uid="uid://i76wgirk6sag"]
+[gd_scene load_steps=3 format=3 uid="uid://i76wgirk6sag"]
+
+[ext_resource type="Script" path="res://UI.gd" id="1_piqjd"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_01mmd"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.52329, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.100549, 0.879898, 0.189507)
 mesh = SubResource("CapsuleMesh_01mmd")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 320.0
+offset_top = 242.0
+offset_right = 726.0
+offset_bottom = 444.0
+text = "Impuls : Is ans a=sid aojwopdjaw dad awdaddd"
+script = ExtResource("1_piqjd")
